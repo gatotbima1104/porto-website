@@ -30,14 +30,14 @@ function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="me-5 button-56 fs-5 fw-bold">Hire me !</button>
+              <button className="me-5 button-56 fs-5 fw-bold mb-5">Hire me !</button>
             </a>
 
             <button onClick={handleButtonClick} className="cv fs-5 fw-bold">
               Download CV <FaArrowRight />
             </button>
           </div>
-          <div className="col-md-6 text-center">
+          <div className="col-md-6 text-center mb-5">
             <img src={poto} alt="poto" className="img-fluid w-50" />
           </div>
         </div>

@@ -36,7 +36,7 @@ const Services = () => {
     <div>
       <Menu />
       <div className=" text-center my-5">
-        <h4 className="title">Services</h4>
+        <h5>SERVICES</h5>
         <h2 className="fw-bold">
           Solving your problem with coding,
           <br />
