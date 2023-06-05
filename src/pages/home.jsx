@@ -18,11 +18,11 @@ function Home() {
       <div className="container d-flex justify-content-center align-items-center mt-5">
         <div className="row d-flex align-items-center">
           <div className="col-md-6 mb-5">
-            <h2>I’m web developer Focus on Machine Learning and Websites</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Exercitationem perferendis dolorem non eligendi iste veniam
-              officia hic corrupti modi numquam!
+            <h2 className="title mb-3 fw-bold">A Web Developer focus on Machine Learning and Websites</h2>
+            <p className="mb-5">
+              A passionate programmer, born and brought up in Indonesia. I am a
+              Full Stack Web Developer with React.js, Express.js, Node.js,
+              and PostgreSQL as my tech stack.
             </p>
 
             <a
@@ -30,10 +30,10 @@ function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="me-3">Hire me !</button>
+              <button className="me-5 button-56 fs-5 fw-bold">Hire me !</button>
             </a>
 
-            <button onClick={handleButtonClick}>
+            <button onClick={handleButtonClick} className="cv fs-5 fw-bold">
               Download CV <FaArrowRight />
             </button>
           </div>

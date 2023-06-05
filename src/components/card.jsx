@@ -1,18 +1,18 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 
-const CardServices = ({ title, description, icon, listItems }) => {
+function CardServices ({ card : { title, description, icon, listItems } }) {
   return (
     <div>
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "17rem", border: "none"}}>
         {icon && <Card.Body className="fs-3 text-center">{icon}</Card.Body>}
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
-          <Card.Text>{description}</Card.Text>
+          <Card.Title className="title fw-bold">{title}</Card.Title>
+          <Card.Text className="desc">{description}</Card.Text>
           {listItems && Array.isArray(listItems) && (
             <ul>
               {listItems.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index} className="fw-bold">{item}</li>
               ))}
             </ul>
           )}

@@ -6,7 +6,7 @@ const Menu = () => {
     <div>
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">Portofolio</Navbar.Brand>
+          <Navbar.Brand href="/" className='title'>Portofolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse
             id="basic-navbar-nav"
